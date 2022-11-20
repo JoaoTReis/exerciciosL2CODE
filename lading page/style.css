@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Sora:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: #060714;
+    
+}
+.header {
+    display: flex;
+    margin-bottom: 65px;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50%;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #000000;
+    background-color: #FFFF00;
+}
+
+.header-topbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    padding: 42px;
+    padding-left: 48px;
+    margin-bottom: 182px;
+    gap: 400px;
+}
+
+.header-topbar-logo-img {
+    height: 34px;
+}
+
+.header-topbar-menu {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.header-topbar-menu-info {
+    font-family: 'Sora', sans-serif;
+    color: #7780A1;
+    font-weight: 600;
+}
+
+/*.header-topbar-button {
+
+}*/
+
+.header-text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 361px;
+    
+    
+}
+.header-text-token {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #7780A1;
+}
+
+.header-text-frame-text1{
+    display: flex;
+    flex-direction: row;
+    gap: 10.64px;
+    
+}
+
+.header-text-frame-text1-title {
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    font-size: 120px;
+    color: #FFFFFF;
+}
+
+.header-text-frame-text2{
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
+}
+
+.header-text-frame-text2-title {
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    font-size: 120px;
+    color: #FFFFFF;
+}
+
+.header-text-token2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #7780A1;
+}
+
+.header-logotypes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 123.82px;
+}
